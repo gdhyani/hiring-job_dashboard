@@ -15,12 +15,221 @@ export default function Home() {
                 </h1>
             </section>
             <section className="flex flex-row w-full">
-                <div className="flex flex-col"></div>
-                <div className="flex flex-col px-6 py-9 border border-[#000] ml-auto">
+                {/* Left Side */}
+                <div className="flex flex-col border-r-2 border-[#e7e7e7] w-full  pt-[38px]">
+                    {/* Heading */}
+                    <div className="flex flex-col mb-8 pl-[100px]">
+                        <div className="flex flex-row gap-3 items-center">
+                            <h1 className="text-4xl font-bold text-primary">
+                                Senior Product Designer
+                            </h1>
+                            <Image
+                                src="Ellipse 11.svg"
+                                width={4}
+                                height={4}
+                                alt="dot"
+                            ></Image>
+                            <h1 className="">posted 2 days ago</h1>
+                            <li className="border rounded-full pl-[6px] bg-[#ecfdf3] items-center font-semibold pb-[2px] border-[#ABEFC6] text-[12px] text-[#067647]">
+                                <span className="relative -left-2">Open</span>
+                            </li>
+                        </div>
+                        <div className="flex flex-row items-center gap-4 mt-6">
+                            <div className="flex flex-row gap-2 items-center">
+                                <Image
+                                    src="/marker-pin-01.svg"
+                                    width={20}
+                                    height={20}
+                                    alt=""
+                                ></Image>
+                                <h1 className="text-[#5d5d5d] font-medium">
+                                    Delaware,USA
+                                </h1>
+                            </div>
+                            <Image
+                                src="Ellipse 11.svg"
+                                width={4}
+                                height={4}
+                                alt="dot"
+                            ></Image>
+                            <div className="flex flex-row gap-2 items-center">
+                                <Image
+                                    src="/coins-stacked-03.svg"
+                                    width={20}
+                                    height={20}
+                                    alt=""
+                                ></Image>
+                                <h1 className="text-[#5d5d5d] font-medium">
+                                    $300k-$400k
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    {/* second section below heading */}
+                    <div className="py-8 border-y-2 gap-16 border-[#e7e7e7] pl-[100px] flex flex-row">
+                        <div className="flex flex-col gap-2">
+                            <h1>Skills Required</h1>
+                            <div className="flex flex-col gap-2">
+                                <div className="flex flex-row gap-1 rounded-md border border-[#D0D5DD] w-fit px-[6px] py-1 items-center">
+                                    <Image
+                                        src="/image 1.svg"
+                                        width={16}
+                                        height={16}
+                                        alt=""
+                                    />
+                                    <h1 className="font-medium text-[#344054] text-[12px]">
+                                        Figma
+                                    </h1>
+                                </div>
+                                <div className="flex flex-row gap-1 rounded-md border border-[#D0D5DD] w-fit px-[6px] py-1 items-center">
+                                    <Image
+                                        src="/image 2.svg"
+                                        width={16}
+                                        height={16}
+                                        alt=""
+                                    />
+                                    <h1 className="font-medium text-[#344054] text-[12px]">
+                                        Adobe Illustrator
+                                    </h1>
+                                </div>
+
+                                <div className="flex flex-row gap-1 rounded-md border border-[#D0D5DD] w-fit px-[6px] py-1 items-center">
+                                    <Image
+                                        src="/image 6.svg"
+                                        width={16}
+                                        height={16}
+                                        alt=""
+                                    />
+                                    <h1 className="font-medium text-[#344054] text-[12px]">
+                                        Adobe XD
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <h1>Preferred Language</h1>
+                            <h1 className="font-semibold text-lg">English</h1>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <h1>Type</h1>
+                            <h1 className="font-semibold text-lg">Full time</h1>
+                        </div>
+                        <div className="flex flex-col gap-2">
+                            <h1>Year of Experience</h1>
+                            <h1 className="font-semibold text-lg">
+                                3+ Years of Experience
+                            </h1>
+                        </div>
+                    </div>
+                    {/* third section about job*/}
+                    <div className="leading-7 pl-[100px] font-medium pt-8">
+                        <h1 className="text-sm mb-2 text-secondary">
+                            About the job
+                        </h1>
+                        <ol className="list-decimal list-inside">
+                            <li>Handle the UI/UX research desing</li>
+                            <li>
+                                Work on researching on latest web applications
+                                designs & trends
+                            </li>
+                            <li>Work on conceptializing and visualizing</li>
+                            <li>
+                                Work on creating graphics content and other
+                                graphic related works
+                            </li>
+                        </ol>
+                        <h1>Benefits:</h1>
+                        <ul className="list-disc list-inside">
+                            <li>Health insurance</li>
+                            <li>Provident Fund</li>
+                        </ul>
+                        <h1>Schedule:</h1>
+                        <ul className="list-disc list-inside">
+                            <li>Day shift</li>
+                        </ul>
+                        <h1>Supplemental pay types:</h1>
+                        <ul className="list-disc list-inside">
+                            <li>Performance bonus</li>
+                            <li>Yearly bonus</li>
+                        </ul>
+                        <h1>Work Location: In person</h1>
+                    </div>
+                    {/* company description */}
+                    <div className="flex flex-col pl-[100px] gap-4 mb-9 border-t-2 border-[#e7e7e7] pt-8">
+                        <div className="flex flex-row py-[10px] items-center gap-3 pr-[10px]">
+                            <Image
+                                src="/logo.svg"
+                                width={40}
+                                height={40}
+                                alt=""
+                            />
+                            <h1 className="text-xl text-[#4f4f4f]">
+                                Atlassian
+                            </h1>
+                        </div>
+                        <div className="flex flex-row gap-12">
+                            <div className="flex flex-col gap-6">
+                                <div className="gap-2 flex flex-col">
+                                    <h1 className="text-secondary text-sm">
+                                        Company size
+                                    </h1>
+                                    <h1 className="font-medium text-base text-primary">
+                                        1k - 2k Employees
+                                    </h1>
+                                </div>
+                                <div className="gap-2 flex flex-col">
+                                    <h1 className="text-secondary text-xm">
+                                        Sector
+                                    </h1>
+                                    <h1 className="font-medium text-base text-primary">
+                                        Information Technology, Infrastructure
+                                    </h1>
+                                </div>
+                                <div className="gap-2 flex flex-col">
+                                    <h1 className="text-secondary text-sm">
+                                        Founded In
+                                    </h1>
+                                    <h1 className="font-medium text-base text-primary">
+                                        2019
+                                    </h1>
+                                </div>
+                            </div>
+                            <div className="flex flex-col gap-6">
+                                <div className="gap-2 flex flex-col">
+                                    <h1 className="text-secondary text-sm">
+                                        Type
+                                    </h1>
+                                    <h1 className="font-medium text-base text-primary">
+                                        Private
+                                    </h1>
+                                </div>
+                                <div className="gap-2 flex flex-col">
+                                    <h1 className="text-secondary text-xm">
+                                        Funding
+                                    </h1>
+                                    <h1 className="font-medium text-base text-primary">
+                                        Bootstrapped
+                                    </h1>
+                                </div>
+                                <div className="gap-2 flex flex-col">
+                                    <h1 className="text-secondary text-sm">
+                                        Founded By
+                                    </h1>
+                                    <h1 className="font-medium text-base text-primary">
+                                        Scott Farquhar, Mike Cannon-Brookes
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Right Side */}
+                <div className="flex flex-col px-6 py-9 ml-auto">
+                    {/* buttons */}
                     <div className="flex flex-row gap-4">
                         <Link
                             href="#"
-                            className="flex flex-row text-accent bg-[#fef4f2] border border-accent rounded-lg font-medium text-base px-[45px] py-[12px] gap-[10px]"
+                            className="flex flex-row text-accent min-w-max items-center bg-[#fef4f2] border border-accent rounded-lg font-medium text-base px-[45px] py-[12px] gap-[10px]"
                         >
                             <Image
                                 src="/trash-03.svg"
@@ -30,15 +239,72 @@ export default function Home() {
                             />
                             Delete
                         </Link>
-                        <Link href="#" className="flex flex-row bg-accent rounded-lg border-2 border-accent_secondary text-[#fff] px-[45px] py-[12px] gap-[10px]">
+                        <Link
+                            href="#"
+                            className="flex flex-row bg-accent items-center min-w-max rounded-lg border-2 border-accent_secondary text-[#fff] px-[45px] py-[12px] gap-[10px]"
+                        >
                             <Image
                                 src="/edit-02.svg"
                                 width={16}
                                 height={16}
                                 alt="edit"
                             />
-                            Edit job
+                            Edit jobs
                         </Link>
+                    </div>
+                    {/* Text below buttons */}
+                    <div className="flex flex-col p-3 mt-6">
+                        <div className="flex flex-row items-center px-[10px] mb-4">
+                            <Image
+                                src="/users-01.svg"
+                                height={20}
+                                width={20}
+                                alt=""
+                            />
+                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                                Applicants
+                            </h1>
+                            <h1 className="ml-auto text-xl font-bold">400</h1>
+                        </div>
+                        <hr className="border-[#E7E7E7]" />
+                        <div className="flex flex-row items-center px-[10px] my-4">
+                            <Image
+                                src="/user-check-01.svg"
+                                height={20}
+                                width={20}
+                                alt=""
+                            />
+                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                                Matches
+                            </h1>
+                            <h1 className="ml-auto text-xl font-bold">100</h1>
+                        </div>
+                        <hr className="border-[#E7E7E7]" />
+                        <div className="flex flex-row items-center px-[10px] my-4">
+                            <Image
+                                src="/message-square-01.svg"
+                                height={20}
+                                width={20}
+                                alt=""
+                            />
+                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                                Messages
+                            </h1>
+                            <h1 className="ml-auto text-xl font-bold">147</h1>
+                        </div>
+                        <hr className="border-[#E7E7E7]" />
+                        <div className="flex flex-row items-center px-[10px] my-4">
+                            <Image
+                                src="/eye.svg"
+                                height={20}
+                                width={20}
+                                alt=""
+                            />
+                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                                Views
+                            </h1>
+                            <h1 className="ml-auto text-xl font-bold">800</h1>
+                        </div>
                     </div>
                 </div>
             </section>
