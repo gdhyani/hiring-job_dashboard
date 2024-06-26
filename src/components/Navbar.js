@@ -17,13 +17,21 @@ export default function Navbar() {
                     />
                     <h1 className="text-[#fff]">Jobs</h1>
                 </button>
-                <button className="font-medium flex flex-row items-center gap-2 text-white text-xl p-4">
+                <button className="font-medium relative flex flex-row items-center gap-2 text-white text-xl p-4">
                     <Image
-                        src="/message-square-01.png"
+                        className=""
+                        src="/message-square-01 (1).svg"
                         alt="icon"
                         width={24}
                         height={24}
-                    />
+                    ></Image>
+                    <Image
+                        className="absolute left-[35px] top-[19px]"
+                        src="/Ellipse 4.svg"
+                        width={6}
+                        height={6}
+                        alt=""
+                    ></Image>
                     <h1 className="text-[#b0b0b0]">Messages</h1>
                 </button>
                 <button className="font-medium flex flex-row items-center gap-2 text-white text-xl">
@@ -36,7 +44,7 @@ export default function Navbar() {
                     <h1 className="text-[#b0b0b0]">Payments</h1>
                 </button>
             </div>
-            <div className="flex flex-row items-center">
+            <div className="flex relative flex-row items-center">
                 <Image
                     className="mr-4"
                     src="/bell-02.svg"
@@ -44,6 +52,13 @@ export default function Navbar() {
                     height={32}
                     alt="bell"
                 />
+                <Image
+                        className="absolute left-[23px] top-[5px]"
+                        src="/Ellipse 4.svg"
+                        width={6}
+                        height={6}
+                        alt=""
+                    ></Image>
                 <Image
                     src="/Rectangle 5.png"
                     width={40}

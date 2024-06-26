@@ -29,10 +29,18 @@ export default function Home() {
                                 height={4}
                                 alt="dot"
                             ></Image>
-                            <h1 className="">posted 2 days ago</h1>
-                            <li className="border rounded-full pl-[6px] bg-[#ecfdf3] items-center font-semibold pb-[2px] border-[#ABEFC6] text-[12px] text-[#067647]">
-                                <span className="relative -left-2">Open</span>
-                            </li>
+                            <h1 className="text-[#888888] text-sm font-medium">
+                                posted 2 days ago
+                            </h1>
+                            <p className="border flex flex-row items-center bg-[#ecfdf3] text-[12px] border-[#ABEFC6] text-[#067647] rounded-full font-medium leading-[18px] gap-1 px-[6px]">
+                                <Image
+                                    src="/Dot.svg"
+                                    width={6}
+                                    height={6}
+                                    alt=""
+                                />
+                                Open
+                            </p>
                         </div>
                         <div className="flex flex-row items-center gap-4 mt-6">
                             <div className="flex flex-row gap-2 items-center">
@@ -122,7 +130,7 @@ export default function Home() {
                         </div>
                     </div>
                     {/* third section about job*/}
-                    <div className="leading-7 pl-[100px] font-medium pt-8">
+                    <div className="leading-7 text-primary pl-[100px] font-medium pt-8 pb-9">
                         <h1 className="text-sm mb-2 text-secondary">
                             About the job
                         </h1>
@@ -139,18 +147,38 @@ export default function Home() {
                             </li>
                         </ol>
                         <h1>Benefits:</h1>
-                        <ul className="list-disc list-inside">
-                            <li>Health insurance</li>
-                            <li>Provident Fund</li>
+                        <ul className="list-disc list-inside pl-2">
+                            <li>
+                                <span className="relative -left-2">
+                                    Health insurance
+                                </span>
+                            </li>
+                            <li>
+                                <span className="relative -left-2">
+                                    Provident Fund
+                                </span>
+                            </li>
                         </ul>
                         <h1>Schedule:</h1>
-                        <ul className="list-disc list-inside">
-                            <li>Day shift</li>
+                        <ul className="list-disc list-inside pl-2">
+                            <li>
+                                <span className="relative -left-2">
+                                    Day shift
+                                </span>
+                            </li>
                         </ul>
                         <h1>Supplemental pay types:</h1>
-                        <ul className="list-disc list-inside">
-                            <li>Performance bonus</li>
-                            <li>Yearly bonus</li>
+                        <ul className="list-disc list-inside pl-2">
+                            <li>
+                                <span className="relative -left-2">
+                                    Performance bonus
+                                </span>
+                            </li>
+                            <li>
+                                <span className="relative -left-2">
+                                    Yearly bonus
+                                </span>
+                            </li>
                         </ul>
                         <h1>Work Location: In person</h1>
                     </div>
@@ -163,14 +191,14 @@ export default function Home() {
                                 height={40}
                                 alt=""
                             />
-                            <h1 className="text-xl text-[#4f4f4f]">
+                            <h1 className="text-xl font-medium text-[#4f4f4f]">
                                 Atlassian
                             </h1>
                         </div>
                         <div className="flex flex-row gap-12">
                             <div className="flex flex-col gap-6">
                                 <div className="gap-2 flex flex-col">
-                                    <h1 className="text-secondary text-sm">
+                                    <h1 className="text-secondary text-sm font-medium">
                                         Company size
                                     </h1>
                                     <h1 className="font-medium text-base text-primary">
@@ -178,7 +206,7 @@ export default function Home() {
                                     </h1>
                                 </div>
                                 <div className="gap-2 flex flex-col">
-                                    <h1 className="text-secondary text-xm">
+                                    <h1 className="text-secondary text-sm font-medium">
                                         Sector
                                     </h1>
                                     <h1 className="font-medium text-base text-primary">
@@ -186,7 +214,7 @@ export default function Home() {
                                     </h1>
                                 </div>
                                 <div className="gap-2 flex flex-col">
-                                    <h1 className="text-secondary text-sm">
+                                    <h1 className="text-secondary text-sm font-medium">
                                         Founded In
                                     </h1>
                                     <h1 className="font-medium text-base text-primary">
@@ -196,7 +224,7 @@ export default function Home() {
                             </div>
                             <div className="flex flex-col gap-6">
                                 <div className="gap-2 flex flex-col">
-                                    <h1 className="text-secondary text-sm">
+                                    <h1 className="text-secondary text-sm  font-medium">
                                         Type
                                     </h1>
                                     <h1 className="font-medium text-base text-primary">
@@ -204,7 +232,7 @@ export default function Home() {
                                     </h1>
                                 </div>
                                 <div className="gap-2 flex flex-col">
-                                    <h1 className="text-secondary text-xm">
+                                    <h1 className="text-secondary text-sm font-medium">
                                         Funding
                                     </h1>
                                     <h1 className="font-medium text-base text-primary">
@@ -212,7 +240,7 @@ export default function Home() {
                                     </h1>
                                 </div>
                                 <div className="gap-2 flex flex-col">
-                                    <h1 className="text-secondary text-sm">
+                                    <h1 className="text-secondary text-sm font-medium">
                                         Founded By
                                     </h1>
                                     <h1 className="font-medium text-base text-primary">
@@ -287,6 +315,7 @@ export default function Home() {
                                 width={20}
                                 alt=""
                             />
+                            
                             <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
                                 Messages
                             </h1>
