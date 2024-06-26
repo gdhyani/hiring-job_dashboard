@@ -265,7 +265,7 @@ export default function Home() {
                                 height={20}
                                 alt="trash"
                             />
-                            Delete
+                            Delete job
                         </Link>
                         <Link
                             href="#"
@@ -277,7 +277,7 @@ export default function Home() {
                                 height={16}
                                 alt="edit"
                             />
-                            Edit jobs
+                            Edit job
                         </Link>
                     </div>
                     {/* Text below buttons */}
