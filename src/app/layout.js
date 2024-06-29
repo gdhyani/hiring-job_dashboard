@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
             <head>
             <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" rel="stylesheet"/>
             </head>
-            <body>
+            <body className="!box-border">
                 <Navbar />
                 {children}
             </body>
