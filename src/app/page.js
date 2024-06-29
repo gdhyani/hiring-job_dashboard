@@ -75,7 +75,7 @@ export default function Home() {
                     </div>
                     {/* second section below heading */}
                     <div className="py-8 border-y-2 gap-16 border-[#e7e7e7] pl-[100px] flex flex-row">
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 min-w-[170px]">
                             <h1>Skills Required</h1>
                             <div className="flex flex-col gap-2">
                                 <div className="flex flex-row gap-1 rounded-md border border-[#D0D5DD] w-fit px-[6px] py-1 items-center">
@@ -114,15 +114,15 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 min-w-[170px]">
                             <h1>Preferred Language</h1>
                             <h1 className="font-semibold text-lg">English</h1>
                         </div>
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 min-w-[170px]">
                             <h1>Type</h1>
                             <h1 className="font-semibold text-lg">Full time</h1>
                         </div>
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 min-w-[170px]">
                             <h1>Year of Experience</h1>
                             <h1 className="font-semibold text-lg">
                                 3+ Years of Experience
