@@ -294,7 +294,7 @@ export default function Home() {
                     </div>
                     {/* Text below buttons */}
                     <div className="flex flex-col gap-4 p-3 mt-6">
-                        <div className="flex flex-row items-center px-[10px] mb-4">
+                        <div className="flex flex-row items-center px-[10px]  h-[42px]">
                             <Image
                                 src="/users-01.svg"
                                 height={20}
@@ -307,7 +307,7 @@ export default function Home() {
                             <h1 className="ml-auto text-xl text-primary font-bold">400</h1>
                         </div>
                         <hr className="border-[#E7E7E7]" />
-                        <div className="flex flex-row items-center px-[10px] my-4">
+                        <div className="flex flex-row items-center px-[10px]  h-[42px]">
                             <Image
                                 src="/user-check-01.svg"
                                 height={20}
@@ -320,7 +320,7 @@ export default function Home() {
                             <h1 className="ml-auto text-xl text-primary font-bold">100</h1>
                         </div>
                         <hr className="border-[#E7E7E7]" />
-                        <div className="flex flex-row items-center px-[10px] my-4">
+                        <div className="flex flex-row items-center px-[10px]  h-[42px]">
                             <Image
                                 src="/message-square-01.svg"
                                 height={20}
@@ -334,7 +334,7 @@ export default function Home() {
                             <h1 className="ml-auto text-xl text-primary font-bold">147</h1>
                         </div>
                         <hr className="border-[#E7E7E7]" />
-                        <div className="flex flex-row items-center px-[10px] my-4">
+                        <div className="flex flex-row items-center px-[10px] h-[42px]">
                             <Image
                                 src="/eye.svg"
                                 height={20}
