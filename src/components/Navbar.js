@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <div className="w-full flex flex-row justify-between py-[18px] items-center pl-10 pr-6">
             <div className="py-[17px] text-xl bg-[#e7e7e7] px-[26px]">
-                <h1 className="text-accent font-bold ">Logo</h1>
+                <h1 className="text-accent font-bold font-satoshi">Logo</h1>
             </div>
             <div className="border rounded-full p-2 border-[#d1d1d1] flex flex-row gap-14 items-center pr-[23px]">
                 <button className="font-medium flex flex-row gap-2 items-center bg-accent text-white text-xl border-2 rounded-full border-accent_secondary p-3.5">

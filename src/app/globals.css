@@ -1,8 +1,9 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@700,1&f[]=general-sans@500,600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: 'Satoshi', sans-serif;
+body { 
+    font-family: 'General Sans', sans-serif;
     box-sizing: border-box !important;
 }

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <main className="">
-            <section className="px-[100px] py-5 flex flex-row gap-[72px] border-y-2 border-[#e7e7e7]">
+            <section className="px-[100px] py-[20px] flex flex-row gap-[72px] border-y-2 border-[#e7e7e7]">
                 <h1 className="text-xl text-accent font-black">Job preview</h1>
                 <h1 className="text-xl text-inactive font-semibold">
                     Applicants
@@ -76,7 +76,9 @@ export default function Home() {
                     {/* second section below heading */}
                     <div className="py-8 border-y-2 gap-16 border-[#e7e7e7] pl-[100px] flex flex-row">
                         <div className="flex flex-col gap-2 min-w-[170px]">
-                            <h1 className="text-[14px] text-secondary font-medium">Skills Required</h1>
+                            <h1 className="text-[14px] text-secondary font-medium">
+                                Skills Required
+                            </h1>
                             <div className="flex flex-col gap-2">
                                 <div className="flex flex-row gap-1 rounded-md border border-[#D0D5DD] w-fit px-[6px] py-[4px] items-center">
                                     <Image
@@ -115,15 +117,25 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex flex-col gap-2 min-w-[170px]">
-                            <h1 className="text-[14px] text-secondary font-medium">Preferred Language</h1>
-                            <h1 className="font-semibold text-[!6px]">English</h1>
+                            <h1 className="text-[14px] text-secondary font-medium">
+                                Preferred Language
+                            </h1>
+                            <h1 className="font-semibold text-[!6px]">
+                                English
+                            </h1>
                         </div>
                         <div className="flex flex-col gap-2 min-w-[170px]">
-                            <h1 className="text-[14px] text-secondary font-medium">Type</h1>
-                            <h1 className="font-semibold text-[16px]">Full time</h1>
+                            <h1 className="text-[14px] text-secondary font-medium">
+                                Type
+                            </h1>
+                            <h1 className="font-semibold text-[16px]">
+                                Full time
+                            </h1>
                         </div>
                         <div className="flex flex-col gap-2 min-w-[170px]">
-                            <h1 className="text-[14px] text-secondary font-medium">Year of Experience</h1>
+                            <h1 className="text-[14px] text-secondary font-medium">
+                                Year of Experience
+                            </h1>
                             <h1 className="font-semibold text-[16px]">
                                 3+ Years of Experience
                             </h1>
@@ -252,7 +264,7 @@ export default function Home() {
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className="flex flex-col px-6 py-9 ml-auto bg-[#fcfcfc]">
+                <div className="flex flex-col font-general px-6 py-9 ml-auto bg-[#fcfcfc]">
                     {/* buttons */}
                     <div className="flex flex-row gap-4">
                         <Link
@@ -315,7 +327,7 @@ export default function Home() {
                                 width={20}
                                 alt=""
                             />
-                            
+
                             <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
                                 Messages
                             </h1>
