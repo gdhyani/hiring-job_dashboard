@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <div className="w-full flex flex-row justify-between py-[18px] items-center pl-10 pr-6">
+        <div className="w-full h-[109px] flex flex-row justify-between py-[18px] items-center pl-10 pr-6">
             <div className="py-[17px] text-xl bg-[#e7e7e7] px-[26px]">
                 <h1 className="text-accent font-bold font-satoshi">Logo</h1>
             </div>

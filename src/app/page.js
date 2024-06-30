@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <main className="">
-            <section className="px-[100px] py-[20px] flex flex-row gap-[72px] border-y-2 border-[#e7e7e7]">
+            <section className="px-[100px] py-[20px] h-[67px] flex flex-row gap-[72px] border-y-2 border-[#e7e7e7]">
                 <h1 className="text-xl text-accent font-black">Job preview</h1>
                 <h1 className="text-xl text-inactive font-semibold">
                     Applicants
@@ -50,7 +50,7 @@ export default function Home() {
                                     height={20}
                                     alt=""
                                 ></Image>
-                                <h1 className="text-[#5d5d5d] font-medium">
+                                <h1 className="text-[#5d5d5d] text-[20px] font-medium">
                                     Delaware,USA
                                 </h1>
                             </div>
@@ -67,7 +67,7 @@ export default function Home() {
                                     height={20}
                                     alt=""
                                 ></Image>
-                                <h1 className="text-[#5d5d5d] font-medium">
+                                <h1 className="text-[#5d5d5d] text-[20px] font-medium">
                                     $300k-$400k
                                 </h1>
                             </div>
@@ -120,7 +120,7 @@ export default function Home() {
                             <h1 className="text-[14px] text-secondary font-medium">
                                 Preferred Language
                             </h1>
-                            <h1 className="font-semibold text-[!6px]">
+                            <h1 className="font-semibold text-primary text-[!6px]">
                                 English
                             </h1>
                         </div>
@@ -128,7 +128,7 @@ export default function Home() {
                             <h1 className="text-[14px] text-secondary font-medium">
                                 Type
                             </h1>
-                            <h1 className="font-semibold text-[16px]">
+                            <h1 className="font-semibold text-primary text-[16px]">
                                 Full time
                             </h1>
                         </div>
@@ -136,7 +136,7 @@ export default function Home() {
                             <h1 className="text-[14px] text-secondary font-medium">
                                 Year of Experience
                             </h1>
-                            <h1 className="font-semibold text-[16px]">
+                            <h1 className="font-semibold text-primary text-[16px]">
                                 3+ Years of Experience
                             </h1>
                         </div>
@@ -209,53 +209,53 @@ export default function Home() {
                         </div>
                         <div className="flex flex-row gap-12 ">
                             <div className="flex flex-col gap-6">
-                                <div className="gap-2 flex flex-col">
+                                <div className="gap-2 flex flex-col min-w-[344px]">
                                     <h1 className="text-secondary text-sm font-medium">
                                         Company size
                                     </h1>
-                                    <h1 className="font-medium text-base text-primary">
+                                    <h1 className="font-medium text-[16px] text-primary">
                                         1k - 2k Employees
                                     </h1>
                                 </div>
-                                <div className="gap-2 flex flex-col">
+                                <div className="gap-2 flex flex-col min-w-[344px]">
                                     <h1 className="text-secondary text-sm font-medium">
                                         Sector
                                     </h1>
-                                    <h1 className="font-medium text-base text-primary">
+                                    <h1 className="font-medium text-[16px] text-primary">
                                         Information Technology, Infrastructure
                                     </h1>
                                 </div>
-                                <div className="gap-2 flex flex-col">
+                                <div className="gap-2 flex flex-col min-w-[344px]">
                                     <h1 className="text-secondary text-sm font-medium">
                                         Founded In
                                     </h1>
-                                    <h1 className="font-medium text-base text-primary">
+                                    <h1 className="font-medium text-[16px] text-primary">
                                         2019
                                     </h1>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-6">
-                                <div className="gap-2 flex flex-col">
+                                <div className="gap-2 flex flex-col min-w-[344px]">
                                     <h1 className="text-secondary text-sm  font-medium">
                                         Type
                                     </h1>
-                                    <h1 className="font-medium text-base text-primary">
+                                    <h1 className="font-medium text-[16px] text-primary">
                                         Private
                                     </h1>
                                 </div>
-                                <div className="gap-2 flex flex-col">
+                                <div className="gap-2 flex flex-col min-w-[344px]">
                                     <h1 className="text-secondary text-sm font-medium">
                                         Funding
                                     </h1>
-                                    <h1 className="font-medium text-base text-primary">
+                                    <h1 className="font-medium text-[16px] text-primary">
                                         Bootstrapped
                                     </h1>
                                 </div>
-                                <div className="gap-2 flex flex-col">
+                                <div className="gap-2 flex flex-col min-w-[344px]">
                                     <h1 className="text-secondary text-sm font-medium">
                                         Founded By
                                     </h1>
-                                    <h1 className="font-medium text-base text-primary">
+                                    <h1 className="font-medium text-[16px] text-primary">
                                         Scott Farquhar, Mike Cannon-Brookes
                                     </h1>
                                 </div>
@@ -264,12 +264,12 @@ export default function Home() {
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className="flex flex-col font-general px-6 py-9 ml-auto bg-[#fcfcfc]">
+                <div className="flex w-[409px] flex-col font-general px-[24px] py-9 ml-auto bg-[#fcfcfc]">
                     {/* buttons */}
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-row gap-4 max-w-[360px]">
                         <Link
                             href="#"
-                            className="flex flex-row text-accent min-w-max items-center bg-[#fef4f2] border border-accent rounded-lg font-medium text-base px-[45px] py-[12px] gap-[10px]"
+                            className="flex flex-row text-accent min-w-max items-center bg-[#fef4f2] border border-accent rounded-lg font-medium text-[16px] px-[35px] py-[12px] gap-[10px]"
                         >
                             <Image
                                 src="/trash-03.svg"
@@ -293,7 +293,7 @@ export default function Home() {
                         </Link>
                     </div>
                     {/* Text below buttons */}
-                    <div className="flex flex-col p-3 mt-6">
+                    <div className="flex flex-col gap-4 p-3 mt-6">
                         <div className="flex flex-row items-center px-[10px] mb-4">
                             <Image
                                 src="/users-01.svg"
@@ -301,10 +301,10 @@ export default function Home() {
                                 width={20}
                                 alt=""
                             />
-                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                            <h1 className="font-medium ml-[10px] text-[16px] text-[#4f4f4f]">
                                 Applicants
                             </h1>
-                            <h1 className="ml-auto text-xl font-bold">400</h1>
+                            <h1 className="ml-auto text-xl text-primary font-bold">400</h1>
                         </div>
                         <hr className="border-[#E7E7E7]" />
                         <div className="flex flex-row items-center px-[10px] my-4">
@@ -314,10 +314,10 @@ export default function Home() {
                                 width={20}
                                 alt=""
                             />
-                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                            <h1 className="font-medium ml-[10px] text-[16px] text-[#4f4f4f]">
                                 Matches
                             </h1>
-                            <h1 className="ml-auto text-xl font-bold">100</h1>
+                            <h1 className="ml-auto text-xl text-primary font-bold">100</h1>
                         </div>
                         <hr className="border-[#E7E7E7]" />
                         <div className="flex flex-row items-center px-[10px] my-4">
@@ -328,10 +328,10 @@ export default function Home() {
                                 alt=""
                             />
 
-                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                            <h1 className="font-medium ml-[10px] text-[16px] text-[#4f4f4f]">
                                 Messages
                             </h1>
-                            <h1 className="ml-auto text-xl font-bold">147</h1>
+                            <h1 className="ml-auto text-xl text-primary font-bold">147</h1>
                         </div>
                         <hr className="border-[#E7E7E7]" />
                         <div className="flex flex-row items-center px-[10px] my-4">
@@ -341,10 +341,10 @@ export default function Home() {
                                 width={20}
                                 alt=""
                             />
-                            <h1 className="font-medium ml-[10px] text-base text-[#4f4f4f]">
+                            <h1 className="font-medium ml-[10px] text-[16px] text-[#4f4f4f]">
                                 Views
                             </h1>
-                            <h1 className="ml-auto text-xl font-bold">800</h1>
+                            <h1 className="ml-auto text-xl text-primary font-bold">800</h1>
                         </div>
                     </div>
                 </div>
